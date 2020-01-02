@@ -45,6 +45,6 @@ In case certain changes had to be made to values:
 
 # Results
 
-![alt text](https://raw.githubusercontent.com/shivendrapsingh/FaceAging-by-morphing/blob/master/scarlett_old.jpg)
+![alt text](https://raw.githubusercontent.com/shivendrapsingh/FaceAging-by-morphing/master/scarlett_old.jpg)
 
 
