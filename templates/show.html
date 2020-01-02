@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Results</title>
+<style>
+    *{
+  box-sizing: border-box;
+    }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+        }
+</style>
+</head>
+<body>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                    <span>{{ message }}</span>
+                    <span aria-hidden="true">&times;</span>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+<h2>Face Morphing Result</h2>
+<a href ="/">Return to Upload</a>
+
+<div class="row">
+  <div class="column">
+    <img src="/static/{{ old_image }}" alt="test" style="width:686px;height:1024px;">
+  </div>
+  <div class="column">
+    <img src="/static/{{ new_image }}" alt="sample" style="width:686px;height:1024px;">
+  </div>
+</div>
+</body>
+</html>
