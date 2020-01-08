@@ -48,7 +48,7 @@ In case certain changes had to be made to values:
 ![alt text](https://raw.githubusercontent.com/shivendrapsingh/FaceAging-by-morphing/master/scarlett_young_git.jpg)
 ![alt text](https://raw.githubusercontent.com/shivendrapsingh/FaceAging-by-morphing/master/oldman_cropped_git.jpg)
 
-Result
+	- Result
 ![alt text](https://raw.githubusercontent.com/shivendrapsingh/FaceAging-by-morphing/master/scarlett_old.jpg)
 
 
